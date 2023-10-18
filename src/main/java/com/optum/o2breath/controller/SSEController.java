@@ -13,7 +13,7 @@ import java.io.IOException;
 @RestController
 @CrossOrigin
 @RequestMapping("/sse")
-public class pompoSSEController {
+public class SSEController {
 
     private final SseEmitter sseEmitter = new SseEmitter();
 
