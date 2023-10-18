@@ -1,4 +1,4 @@
-package com.optum.o2breath;
+package com.optum.o2breath.controller;
 
 
 import org.springframework.http.MediaType;
@@ -13,7 +13,7 @@ import java.io.IOException;
 @RestController
 @CrossOrigin
 @RequestMapping("/sse")
-public class SSEController {
+public class pompoSSEController {
 
     private final SseEmitter sseEmitter = new SseEmitter();
 
